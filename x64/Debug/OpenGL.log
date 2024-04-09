@@ -1,0 +1,46 @@
+﻿  pch.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+C:\Users\Fredc\Downloads\OpenGL\OpenGL\OpenGL\Libraries\includes\glad\glad.h(32,1): message : see previous definition of 'APIENTRY'
+  backend.cpp
+  camera.cpp
+  Collision.cpp
+  input.cpp
+  main.cpp
+  Mesh.cpp
+C:\Users\Fredc\Downloads\OpenGL\OpenGL\OpenGL\Mesh\Mesh.cpp(66,38): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Fredc\Downloads\OpenGL\OpenGL\OpenGL\Mesh\Mesh.cpp(69,39): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\Fredc\Downloads\OpenGL\OpenGL\OpenGL\Mesh\Mesh.cpp(165,46): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xmemory(677,68): warning C4244: 'argument': conversion from '_Ty' to 'unsigned int', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\vector(798,27): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,float,float,float>(_Alloc &,_Objty *const ,float &&,float &&,float &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<Triangle>,
+              _Ty=Triangle,
+              _Objty=Triangle
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\vector(780,20): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<float,float,float>(float &&,float &&,float &&)' being compiled
+          with
+          [
+              _Ty=Triangle
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\vector(862,24): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<float,float,float>(float &&,float &&,float &&)' being compiled
+          with
+          [
+              _Ty=Triangle
+          ]
+C:\Users\Fredc\Downloads\OpenGL\OpenGL\OpenGL\Mesh\Mesh.cpp(83,12): message : see reference to function template instantiation 'void std::vector<Triangle,std::allocator<Triangle>>::emplace_back<float,float,float>(float &&,float &&,float &&)' being compiled
+  shader.cpp
+  window.cpp
+C:\Users\Fredc\Downloads\OpenGL\OpenGL\OpenGL\Window\window.cpp(19,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Fredc\Downloads\OpenGL\OpenGL\OpenGL\Window\window.cpp(19,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Fredc\Downloads\OpenGL\OpenGL\OpenGL\Window\window.cpp(32,26): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\Fredc\Downloads\OpenGL\OpenGL\OpenGL\Window\window.cpp(32,19): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+  Generating Code...
+  glad.c
+  LINK : C:\Users\Fredc\Downloads\OpenGL\OpenGL\x64\Debug\OpenGL.exe not found or not built by the last incremental link; performing full link
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  OpenGL.vcxproj -> C:\Users\Fredc\Downloads\OpenGL\OpenGL\x64\Debug\OpenGL.exe
