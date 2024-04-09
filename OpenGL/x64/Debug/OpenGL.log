@@ -1,15 +1,15 @@
 ﻿  pch.cpp
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
-C:\Skole\3D-Programmering\Github\3DProgramming_Compulsory3\OpenGL\Libraries\includes\glad\glad.h(32,1): message : see previous definition of 'APIENTRY'
+C:\Skole\3D-Programmering\Github\Compulsory3\OpenGL\Libraries\includes\glad\glad.h(32,1): message : see previous definition of 'APIENTRY'
   backend.cpp
   camera.cpp
   Collision.cpp
   input.cpp
   main.cpp
   Mesh.cpp
-C:\Skole\3D-Programmering\Github\3DProgramming_Compulsory3\OpenGL\Mesh\Mesh.cpp(66,38): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Skole\3D-Programmering\Github\3DProgramming_Compulsory3\OpenGL\Mesh\Mesh.cpp(69,39): warning C4305: '+=': truncation from 'double' to 'float'
-C:\Skole\3D-Programmering\Github\3DProgramming_Compulsory3\OpenGL\Mesh\Mesh.cpp(165,46): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\Skole\3D-Programmering\Github\Compulsory3\OpenGL\Mesh\Mesh.cpp(66,38): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Skole\3D-Programmering\Github\Compulsory3\OpenGL\Mesh\Mesh.cpp(69,39): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Skole\3D-Programmering\Github\Compulsory3\OpenGL\Mesh\Mesh.cpp(165,46): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\xmemory(677,68): warning C4244: 'argument': conversion from '_Ty' to 'unsigned int', possible loss of data
           with
           [
@@ -32,14 +32,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.3253
           [
               _Ty=Triangle
           ]
-C:\Skole\3D-Programmering\Github\3DProgramming_Compulsory3\OpenGL\Mesh\Mesh.cpp(83,12): message : see reference to function template instantiation 'void std::vector<Triangle,std::allocator<Triangle>>::emplace_back<float,float,float>(float &&,float &&,float &&)' being compiled
+C:\Skole\3D-Programmering\Github\Compulsory3\OpenGL\Mesh\Mesh.cpp(83,12): message : see reference to function template instantiation 'void std::vector<Triangle,std::allocator<Triangle>>::emplace_back<float,float,float>(float &&,float &&,float &&)' being compiled
   shader.cpp
   window.cpp
-C:\Skole\3D-Programmering\Github\3DProgramming_Compulsory3\OpenGL\Window\window.cpp(19,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Skole\3D-Programmering\Github\3DProgramming_Compulsory3\OpenGL\Window\window.cpp(19,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-C:\Skole\3D-Programmering\Github\3DProgramming_Compulsory3\OpenGL\Window\window.cpp(32,26): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
-C:\Skole\3D-Programmering\Github\3DProgramming_Compulsory3\OpenGL\Window\window.cpp(32,19): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Skole\3D-Programmering\Github\Compulsory3\OpenGL\Window\window.cpp(19,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Skole\3D-Programmering\Github\Compulsory3\OpenGL\Window\window.cpp(19,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Skole\3D-Programmering\Github\Compulsory3\OpenGL\Window\window.cpp(32,26): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Skole\3D-Programmering\Github\Compulsory3\OpenGL\Window\window.cpp(32,19): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
   Generating Code...
   glad.c
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-  OpenGL.vcxproj -> C:\Skole\3D-Programmering\Github\3DProgramming_Compulsory3\x64\Debug\OpenGL.exe
+  OpenGL.vcxproj -> C:\Skole\3D-Programmering\Github\Compulsory3\x64\Debug\OpenGL.exe
